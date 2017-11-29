@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+body {
+  background: linear-gradient(to bottom right, #3F9494, #003D3D)
+}
+
+div {
+  width:100px;
+  height:100px;
+
+}
+td {
+
+  border: 1px solid black;
+
+  width: 30px;
+  height: 30px;
+  background-color: white;
+
+}
+#makingGrid {
+  width: auto;
+
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  padding: 50px;
+  box-shadow: 0 25px 46px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  overflow: visible;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1em;
+  box-shadow: 0 33px 52px rgba(0,0,0,0.35), 0 23px 17px rgba(0,0,0,0.44);
+}
+#title {
+  font-family: "Russo One";
+  font-size: 4em;
+  color: #15C5C5;
+}
+#canvas {
+  font-family: "Russo One";
+  font-size: 4em;
+  color: #15C5C5;
+  text-align: center;
+}
+#submit {
+  background-color: #2DB57B;
+  width: 657px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  margin-top: 3em;
+  border: none;
+  outline: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+
+}
+#submit.value {
+  text-align:center;
+  align-items: center;
+}
+#sizePicker {
+  overflow: hidden;
+  width: 100%;
+
+}
+#inputWidth {
+  width: 240px;
+  height: 40px;
+  background:  #3F9494;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#inputHeight {
+  width: 230px;
+  height: 40px;
+  background: #3F9494;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.container {
+  background-color: #1D2525;
+  color: #15C5C5;
+
+}
+#colorPickerTextContainer {
+  width: auto;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+#colorPickerBox {
+  width:45%;
+  margin: 0 auto;
+  align-content: center;
+}
+#colorText {
+  text-align: center;
+}
+#colorPicker {
+  width: 290px;
+  height: 100px;
+  border: none;
+  outline: none;
+  background-color:transparent;
+
+
+}
+#gridSizeText {
+  text-align: center;
+}
+#canvas {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
