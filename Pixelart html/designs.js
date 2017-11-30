@@ -23,15 +23,10 @@ var width = $('#inputWidth').val(); // defining a canvasWidth
 function colorMe(){
 
   $('#colorPicker').change(function(){
-    var state = true;
-    var pre = '#2DB57B';
-    if(state){
-    $('#submit').css('background-color', pre);
-
-  }
     var colore = $('#colorPicker').val();
-    $('#submit').css('background-color',colore);
-    $('#title , #canvas, p, sizePicker, h2').css('color', colore);
+    $('#submit').animate({backgroundColor: colore}, 500);
+    $('#title , #canvas, p, form, sizePicker, h2').animate({color: colore}, 500);
+    $('#inputWidth, #inputHeight').animate({backgroundColor: colore}, 500);
     state = false;
   });
 }
